@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>RAG Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <main class="chat-container">
+
+        <header>
+            <h1>Assistente Personale</h1>
+            <p>Chatbot locale</p>
+        </header>
+
+        <section id="messages"></section>
+
+        <form id="chat-form">
+            <input
+                id="message"
+                type="text"
+                placeholder="Scrivi una domanda..."
+                required
+            >
+            <button type="submit">Invia</button>
+        </form>
+
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
